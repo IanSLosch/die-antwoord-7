@@ -1,0 +1,30 @@
+$fa-font-path: "../font";
+$html-font-size: 16;
+$white: #fff;
+$black: #000;
+$blue: #00c2ff;
+$grey: #65617a;
+$header-blue: #6391d6;
+
+
+@font-face {
+  font-family: 'Arial';
+  src: url('../font/Arial-Black.woff2') format('woff2'),
+      url('../font/Arial-Black.woff') format('woff');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Arial';
+  src: url('../font/ArialMT.woff2') format('woff2'),
+      url('../font/ArialMT.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+$primary-font: "Montserrat", Arial, sans-serif;
+$header-font: Arial
+
